@@ -1,4 +1,4 @@
-const CACHE = "mon-frigo-v5";
+const CACHE = "mon-frigo-v5-1";
 const STATIC = ["./icon-180.png","./icon-192.png","./icon-512.png","./icon-512-maskable.png","./icon-1024.png","./manifest.webmanifest"];
 const CORE = ["./","./index.html","./app.js"];
 self.addEventListener("install",(e)=>{e.waitUntil(caches.open(CACHE).then((c)=>c.addAll([...CORE,...STATIC])));self.skipWaiting();});
