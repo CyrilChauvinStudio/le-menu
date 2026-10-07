@@ -1,4 +1,4 @@
-const CACHE = "le-menu-v11";
+const CACHE = "le-menu-v12";
 const STATIC = [
   "./manifest.webmanifest",
   "./icon-192.png",
